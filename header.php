@@ -58,7 +58,7 @@ return $actual_link . '?lang=' . $myLang . '&loc=' . $loc;
 		<!-- META -->
       
 
-		<meta property="og:url" content="https://xmass.srdjansrdjanov.info" />
+		<meta property="og:url" content="https://foxinabox.rs/xmass" />
 		<meta property="og:image" content="assets/shareImage.png" />
 		<meta property="og:site_name" content="Interactive Christmas Card" />
 		<meta property="og:description" content="Merry Christmas and Happy New Year" />
