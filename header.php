@@ -52,7 +52,7 @@ return $actual_link . '?lang=' . $myLang . '&loc=' . $loc;
 			name="viewport"
 			content="width=device-width, initial-scale=1.0 user-scalable=no"
 		/>
-		<!-- <link rel="stylesheet" href="css/style.css" /> -->
+	
 		<link rel="stylesheet" href="css/style_final.css" />
 		<link rel="icon" href="./assets/fav.png" type="image/gif" sizes="16x16" />
 		<!-- META -->
@@ -61,8 +61,8 @@ return $actual_link . '?lang=' . $myLang . '&loc=' . $loc;
 		<meta property="og:url" content="https://xmass.srdjansrdjanov.info" />
 		<meta property="og:image" content="assets/shareImage.png" />
 		<meta property="og:site_name" content="Interactive Christmas Card" />
-		<meta property="og:description" content="Marry Christmas and happy new year" />
-		<meta property="og:title" content="Christmas Interactive Card: by FoxInABox" />
+		<meta property="og:description" content="Merry Christmas and Happy New Year" />
+		<meta property="og:title" content="Interactive Christmas Card: by Fox in a Box" />
 
 		
 
