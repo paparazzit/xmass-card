@@ -13,9 +13,9 @@
 			<div class="langs">
 				<a href="<?php echo addLang($actual_link, 'en'); ?>" class="<?php if($lang==='en') echo "active"?>" >En</a>
 				<a href="<?php echo addLang($actual_link, 'us'); ?>" class="<?php if($lang==='us') echo "active"?>" >Us</a>
-				<a href="<?php echo addLang($actual_link, 'fr'); ?>" class="<?php if($lang==='fr') echo "active"?>" >Fr</a>
-				<a href="<?php echo addLang($actual_link, 'es');  ?>" class="<?php if($lang==='es') echo "active"?>" >Es</a>
-				</div>
+				<!-- <a href="<?php echo addLang($actual_link, 'fr'); ?>" class="<?php if($lang==='fr') echo "active"?>" >Fr</a>
+				<a href="<?php echo addLang($actual_link, 'es');  ?>" class="<?php if($lang==='es') echo "active"?>" >Es</a> -->
+			</div>
 				<p>
 					<?php echo $intr_text['text']?>
 				</p>
