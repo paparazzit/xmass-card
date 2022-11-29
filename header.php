@@ -10,7 +10,7 @@ if(isset($_GET['lang'])){
 		case 'fr':
 				$lang = $_GET['lang'];
 			break;
-		case 'es':
+		case 'de':
 				$lang = $_GET['lang'];
 			break;
 			case 'us':

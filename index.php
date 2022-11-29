@@ -13,6 +13,7 @@
 			<div class="langs">
 				<a href="<?php echo addLang($actual_link, 'en'); ?>" class="<?php if($lang==='en') echo "active"?>" >En</a>
 				<a href="<?php echo addLang($actual_link, 'us'); ?>" class="<?php if($lang==='us') echo "active"?>" >Us</a>
+				<a href="<?php echo addLang($actual_link, 'de'); ?>" class="<?php if($lang==='de') echo "active"?>" >De</a>
 				<!-- <a href="<?php echo addLang($actual_link, 'fr'); ?>" class="<?php if($lang==='fr') echo "active"?>" >Fr</a>
 				<a href="<?php echo addLang($actual_link, 'es');  ?>" class="<?php if($lang==='es') echo "active"?>" >Es</a> -->
 			</div>
@@ -60,14 +61,14 @@
 						class="btn"
 						title="share on fb"
 					>
-					<span><i class="fa-brands fa-facebook-f"></i> share</span> 	<div class="arrow-wrapper">
+					<span><i class="fa-brands fa-facebook-f"></i> <?php echo $outro_txt['share']?></span> 	<div class="arrow-wrapper">
 						<img src="assets/arrow-wh.png" alt="" />
 					</div></a
 					>
 					<div class="copySection">
 					
 						<button class="btn btn-copy" title="copy url" id="urlBtn" onclick="copyUrl()">
-						<span>copy url</span> <div class="arrow-wrapper">
+						<span><?php echo $outro_txt['copy']?></span> <div class="arrow-wrapper">
 						<img src="assets/arrow-wh.png" alt="" />
 					</div>
 						</button>
@@ -82,7 +83,7 @@
 			<div class="container">
 			<div class="rotateScreen">
 			<div class="content">
-				<p>For the best experiance please rotate device to landscape mode <br><i class="fa-solid fa-rotate"></i></p>
+				<p><?php echo $intr_text['rotate']?> <br><i class="fa-solid fa-rotate"></i></p>
 			</div>
 		</div>
 				<div class="game-panel">

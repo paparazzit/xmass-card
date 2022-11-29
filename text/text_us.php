@@ -9,8 +9,8 @@ $intr_text= array(
     Play this little game and get to know Tió de Nadal by figuring out what you need to do.
     </p>
     ',
-    
     'btn'=>'play',
+    'rotate' =>'For the best experiance please rotate device to landscape mode '
     
 );
 
@@ -29,6 +29,8 @@ $outro_txt = array(
     <p>If you want to learn more about this and other unique Christmas traditions around the world, check out our blog.</p>
 
     <p>Merry Christmas and Happy New Year!</p>
-    "
+    ",
+    'share' => 'Share',
+    'copy' => 'Copy URL'
 );
 ?>

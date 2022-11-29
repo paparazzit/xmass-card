@@ -4,39 +4,29 @@ if(isset($_GET['loc'])){
     $loc = strtolower($loc);
 	switch ($loc){
 		case 'graz':
-			$loc = "https://www.foxinaboxgraz.at/";
-            $linkText = 'Grazz Locaiton';
+			$loc = "https://www.foxinaboxgraz.at/einzigartige_und_besondere_weihnachtstraditionen_in_der/l-92";
+            $linkText = 'ARTIKEL  LESEN';
 			break;
-		case 'florence':
-            $loc = "https://foxinaboxfirenze.com/";
-            $linkText = 'florence Locaiton';
-			break;
-		case 'london':
-            $loc = "https://www.foxinaboxlondon.uk/";
-            $linkText = 'London Locaiton';
-			break;
-         case 'munchen':
-            $loc = "https://foxinaboxmuenchen.de/";
-            $linkText = 'munchen Locaiton';
-            break;
-        case 'zupthen':
-                $loc = "https://foxinaboxzutphen.com/";
-                $linkText = 'zupthen Locaiton';
+        	case 'brisbane':
+                $loc = "https://foxinaboxbrisbane.com/articles/article/l_31?lang=eng&preview=1";
+                $linkText = 'READ ARTICLE';
                 break;
-        case 'chicago':
-                $loc = "https://www.foxinaboxchicago.com/articles";
-                $linkText = 'chicago Locaiton';
+        
+	
+        case 'gold-coast':
+                $loc = "https://foxinaboxgoldcoast.com/articles/article/l_18?lang=eng&preview=1";
+                $linkText = 'READ ARTICLE';
                 break;
 
 		default: 
         $loc = "https://foxinabox.re/";
-        $linkText = 'FOX IN ABOX MAIN';
+        $linkText = 'READ ARTICLE';
 	}
 
    
 } else{
     $loc = "https://foxinabox.re/";
-    $linkText = 'FOX IN A BOX MAIN';
+    $linkText = 'READ ARTICLE';
 }
 $link = '<a href="'.$loc.'" target="_BLANK">' . $linkText .'</a>';
 

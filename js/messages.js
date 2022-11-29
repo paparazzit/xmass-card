@@ -45,32 +45,26 @@ function messages() {
 				candyFull: "Will you share some candy with me?",
 			};
 			break;
-		case "es":
+		case "de":
 			text = {
-				msg0: "Hola," + " I speak spanish now",
-				msg1: "I'm part of some unique Christmas traditions",
-				msg2: "What you have there...",
-				msg3: "A hat, some candy, blanket...nice!",
-				capOn: "Tnx for the cap... I speak spanish now",
-				candy: "that was nice... I'm tired now. Can I have a blanky",
-				stick: "Oh no... what you have there... a stick... put it back please",
-				sleepy: "ZZZZ",
-				finishTxt: "Ups... I made a mess under my blanket.",
-				full: "Yay! Goodies! Are all those for me?",
-			};
-			break;
-		case "fr":
-			text = {
-				msg0: "Hola," + " I speak spanish now",
-				msg1: "I'm part of some unique Christmas traditions",
-				msg2: "What you have there...",
-				msg3: "A hat, some candy, blanket...nice!",
-				capOn: "Tnx for the cap... I speak French now",
-				candy: "that was nice... I'm tired now. Can I have a blanky",
-				stick: "Oh no... what you have there... a stick... put it back please",
-				sleepy: "ZZZZ",
-				finishTxt: "Ups... I made a mess under my blanket.",
-				full: "Yay! Goodies! Are all those for me?",
+				haveHat: "Du hast einen Hut für mich gefunden?",
+				blanketMissing:
+					"Mmm, ich bin satt. Kannst du meine Kuscheldecke finden?",
+
+				msg0: "Hola! Ich bin Caga Tió, der katalanische Weihnachtsstamm!",
+				msg1: "Kennst du die Wege meiner Tradition? Finde zuerst alle Gegenstände im Raum.",
+				msg2: "Was du da hast…",
+				msg3: "Eine Mütze, ein paar Süßigkeiten, eine Decke … schön!",
+				capOn: "Danke für den Hut... hast du Süßigkeiten?",
+				candy: "Mmm... ich bin jetzt müde. Kann ich eine Decke haben?",
+				stick:
+					"Oh nein! Du hast einen Stock gefunden. Ich sehe, wohin das führt …",
+				sleepy: "Das ist gemütlich…",
+				finishTxt:
+					"Ups... ich habe eine Sauerei unter meiner Decke angerichtet!",
+
+				full: "Juhu! Leckereien! Sind die für mich?",
+				candyFull: "Gibst du mir ein paar Süßigkeiten?",
 			};
 			break;
 
