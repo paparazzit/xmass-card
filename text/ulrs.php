@@ -19,13 +19,13 @@ if(isset($_GET['loc'])){
                 break;
 
 		default: 
-        $loc = "https://foxinabox.re/";
+        $loc = "https://foxinabox.re/unique-and-peculiar-christmas-traditions-around-the-world/";
         $linkText = 'READ ARTICLE';
 	}
 
    
 } else{
-    $loc = "https://foxinabox.re/";
+    $loc = "https://foxinabox.re/unique-and-peculiar-christmas-traditions-around-the-world/";
     $linkText = 'READ ARTICLE';
 }
 $link = '<a href="'.$loc.'" target="_BLANK">' . $linkText .'</a>';
