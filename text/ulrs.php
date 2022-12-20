@@ -17,6 +17,10 @@ if(isset($_GET['loc'])){
                 $loc = "https://foxinaboxgoldcoast.com/articles/article/l_18?lang=eng&preview=1";
                 $linkText = 'READ ARTICLE';
                 break;
+        case 'zagreb':
+                $loc = "https://zagreb.roomescape.hr/jedinstveni_boini_obiaji/l-119";
+                $linkText = 'PROČITAJ';
+            break;
 
 		default: 
         $loc = "https://foxinabox.re/unique-and-peculiar-christmas-traditions-around-the-world/";

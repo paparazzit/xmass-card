@@ -67,6 +67,26 @@ function messages() {
 				candyFull: "Gibst du mir ein paar Süßigkeiten?",
 			};
 			break;
+		case "hr":
+			text = {
+				haveHat: "Jeste li našli kapu za mene?",
+				blanketMissing:
+					"Mmm, prejeo sam se. Možete mi, molim vas, dati dekicu?",
+
+				msg0: "Hola! Ja sam Caga Tió, katalonska božićna cjepanica.",
+				msg1: "Želite li saznati više o mojoj tradiciji? Prvo pronađite sve predmete u sobi.",
+				msg2: "Ma, što to imamo ovdje...?",
+				msg3: "Kapa, slatkiši i dekica....baš krasno!",
+				capOn: "Hvala za kapu....imate li slatkiše za mene?",
+				candy: "Mmm... baš sam umoran. Možete mi, molim vas, dati dekicu?",
+				stick: "O ne! Pronašli ste štap! Mislim da znam kuda ovo vodi...",
+				sleepy: "Baš ugodno...",
+				finishTxt: "Ups... mislim da sam se uneredio ispod dekice!",
+
+				full: "Jeee! Super! Ovo je za mene?",
+				candyFull: "Imate li slatkiše za mene?",
+			};
+			break;
 
 		default:
 			text = {

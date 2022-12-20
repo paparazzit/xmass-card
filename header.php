@@ -16,6 +16,9 @@ if(isset($_GET['lang'])){
 			case 'us':
 				$lang = $_GET['lang'];
 			break;
+			case 'hr':
+				$lang = $_GET['lang'];
+			break;
 		default: $lang ='en';
 	}
 }else{
